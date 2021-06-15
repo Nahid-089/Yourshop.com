@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    background: url(../Image/cover3.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: .90;
+    transition: opacity .5s ease-in-out;
+}
+
+.main{
+    z-index: 2;
+}
+
+.navbar{
+    height: 80px;  px;
+    width: 100%;
+
+    background: rgba(0,0,0,0.4);
+
+}
+
+.logo{
+    width: 40px;
+    height: auto;
+    padding: 20px 80px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 8px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: arial;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background: gray;
+border-radius: 2px;
+}
