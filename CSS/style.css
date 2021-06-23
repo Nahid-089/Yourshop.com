@@ -77,14 +77,14 @@ border-radius: 2px;
 color: yellow;
 font-size: 70px;
 font-weight: bolder;
-width: 900px;
+width: auto;
 text-align: center; 
 }
 .center h2{
     color: black;
     font-size: 40px;
     font-weight: bolder;
-    width: 850px;
+    width: auto;
     text-align: center; 
     }
 
@@ -109,6 +109,10 @@ text-align: center;
         margin-left: 25px;
     }
 
+    .buttons button:hover{
+        background-color: gray;
+    }
+
     footer{
         margin-top: 100vh;
         background: rgb(0, 65, 85);
@@ -122,3 +126,87 @@ text-align: center;
         line-height: 4;
         text-align: center;
     }
+
+/* about */
+
+.center .about{
+     margin: 35px 280px;
+     font-weight: bolder;
+     color: white;
+
+}
+
+.center .about .about-h{
+    font-weight: bolder;
+
+}
+
+a.aboutsite{
+    color: black;
+}
+
+a.aboutsite:hover{
+  color: gray;  
+}
+
+/* history */
+
+.center .history{
+    margin: 35px 10px;
+    font-weight: bolder;
+    color: white;
+
+    .center .about .history.h{
+        font-weight: bolder;
+    }
+}
+
+
+/*  contact  */
+form{
+    margin: auto;
+    width: 200%;
+    padding: 40px;
+    font-weight: bolder;
+
+}
+
+.form-control{
+    display: block;
+    width: 40%;
+    padding: .375rem  .75rem;
+    font-size: 1rem;
+    line-height: 2.5;
+    color: gray;
+    background-color: white;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    border-radius: .25rem;
+    transition: border
+    trasnsition: border-color .15s ease-in-out, box=shadow .15 ease-in-out;
+}
+
+.btn-primary:{
+    color: white;
+    background-color: black);
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: gray);
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    trasnsition: border-color .15s ease-in-out, box=shadow .15 ease-in-out;
+}
