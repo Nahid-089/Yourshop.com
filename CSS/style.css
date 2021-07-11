@@ -209,4 +209,36 @@ form{
     line-height: 1.5;
     border-radius: .25rem;
     trasnsition: border-color .15s ease-in-out, box=shadow .15 ease-in-out;
+  }  
+    .side-box{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2PX 2PX 30PX RGBA(167,158,245,0.1);
+}
+
+.Search input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #1f1f1f;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+
+.Search input::placeholder{
+    color: #1d1d1d;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: poppins;
+
 }
