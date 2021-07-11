@@ -212,8 +212,8 @@ form{
   }  
     .side-box{
     position: fixed;
-    right: 90px;
-    top: 50px;
+    right: 20px;
+    top: 70px;
     width: 170px;
     height: 45px;
     background-color: #FFFFFF;
