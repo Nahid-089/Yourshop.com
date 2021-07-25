@@ -266,3 +266,19 @@ form{
     color: #3d3d4a;
     text-transform: uppercase;
 }
+
+.main-btn{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+}
