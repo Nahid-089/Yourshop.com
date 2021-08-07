@@ -58,7 +58,6 @@ button{
     width: 100%;
     overflow: hidden;
 }
-
 .background{
    
     background-size: cover;
@@ -80,7 +79,7 @@ button{
     background: rgba(0, 65, 85, 0.7);
 }
 .navbar{
-    height: 80px;  px;
+    height: 80px;
     width: 100%;
 
     background: rgba(0,0,0,0.4);
@@ -95,7 +94,7 @@ button{
 
 .navbar ul{
     float: right;
-    margin-right: 40px;
+    margin-right: 20px;
 
 }
 
@@ -103,44 +102,45 @@ button{
     list-style: none;
     margin: 8px;
     display: inline-block;
-    line-height: 50px;
+    line-height: 80px;
 }
 
-.navbar ul li{
+.navbar ul li a{
     text-decoration: none;
     color: white;
     font-size: 20px;
     padding: 6px 13px;
-    font-family: arial;
+    font-family: arial black;
     transition: .4s;
 }
 
 .navbar ul li a.active,
-.navbar ul li a:hover{
+.navber ul li a:hover{
 background: gray;
 border-radius: 2px;
 }
 .main .center{
     position: absolute;
     top: 50%;
-    left: 58%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-family: sans-serif;
     user-select: none;
+
 }
 
 .center h1{
 color: yellow;
 font-size: 70px;
 font-weight: bolder;
-width: auto;
+width: 900px;
 text-align: center; 
 }
 .center h2{
     color: black;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: bolder;
-    width: auto;
+    width: 850px;
     text-align: center; 
     }
 
@@ -149,11 +149,11 @@ text-align: center;
     }
     .buttons button{
         height: 50px;
-        width: 150px;
-        font-size: 18px;
+        width: 155px;
+        font-size: 12px;
         font-weight: bold;
         color: white;
-        background-color: rgb(26, 41, 46);
+        background-color: rgb(29, 40, 44);
         border: 1px solid;
         outline: none;
         cursor: pointer;
@@ -242,6 +242,8 @@ form{
     trasnsition: border-color .15s ease-in-out, box=shadow .15 ease-in-out;
 }
 
+
+
 .btn-primary:{
     color: white;
     background-color: black);
@@ -265,5 +267,50 @@ form{
     line-height: 1.5;
     border-radius: .25rem;
     trasnsition: border-color .15s ease-in-out, box=shadow .15 ease-in-out;
-  }  
+}  
+.row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.btn{
+   display: inline-block;
+   background: #ff523b;
+   color:#fff;
+   padding: .375rem .75rem;
+   margin: 30px 0;
+   border-radius: 30px;
+   transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #563434;
+}
+
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
  
