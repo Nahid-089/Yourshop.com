@@ -3,8 +3,64 @@
     margin: 0;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    perspective: 200px;
+}
+.left{
+    flex-basis: 50%;
+ 
+}
+
+.right{
+    flex-basis: 100%;
+    max-width: 400px;
+    margin-left: 100px;
+}
+
+.right h1{
+    font-size: 50px;
+}
+
+.right p{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+button{
+    background: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#featured{
+    padding: 50px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    grid-auto-rows: minmax(200px,auto);
+    grid-gap:1em
+}
+
+.wrapper> div img{
+    width: 100%;
+    overflow: hidden;
+}
+
 .background{
-    background: url(../Image/cover3.jpg) no-repeat;
+   
     background-size: cover;
     height: 100vh;
     position: fixed;
